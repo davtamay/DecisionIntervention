@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 18d73c7e9a78b44e1b841dcecb5d87f0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerData: {instanceID: 0}
+  - masterPlayerInventory: {fileID: 11400000, guid: 72ec2b0ba3cdb46078be2df043589151,
+      type: 2}
+  - masterTaskList: {instanceID: 0}
+  - playerPoints: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

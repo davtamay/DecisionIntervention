@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd6563f7e4c5546ee953e41eb1ec94fc, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  playerName: Godsen
+  homePlayerPosition: {x: 0, y: 12, z: 0}
+  customPlayerPosition: {x: 0, y: 12, z: 0}
+  savedPlayerPosition: {x: -17.381674, y: 12.19, z: 62.05908}
+  currentPlayerPosition: {fileID: 11400000, guid: 48ea6d12db4e54596806fc9a9cb66240,
+    type: 2}
+  savedPlayerRotY: 0
+  currentPlayerRotY: {fileID: 11400000, guid: 104c66dbaa7d35e43940133705849bc9, type: 2}
+  masterInventoryList: {fileID: 11400000, guid: 772ce1e6258e85849ab583b1bda13f59,
+    type: 2}
+  masterTaskList: {fileID: 11400000, guid: d859f7db236bc41fea9b46aabbb1d6b5, type: 2}
+  masterCharacterProfList: {fileID: 11400000, guid: a4e4d9905453a794aa9c5455c00af83e,
+    type: 2}
+  masterAreaList: {fileID: 11400000, guid: 524f00b1992ab7f44ba9a6fd1f066d4e, type: 2}
+  masterPlayerPoints: {fileID: 11400000, guid: 918bb7cfaf83322489fb9893f6b83ec0, type: 2}
+  playerResilienceHealth: {fileID: 11400000, guid: be1c5c4305c10844eb866f1ba4065c0b,
+    type: 2}
+  masterCopingMechanismList: {fileID: 11400000, guid: 003721441e1574afa88fc4ea880bf6bb,
+    type: 2}
+  persisterDescription: PlayerData
+  playerBasicData:
+    playerName: Godsen
+    savedPlayerPos: {x: -17.381674, y: 12.19, z: 62.05908}
+    savedPlayerRotY: 0
+    resilienceHealth: 0

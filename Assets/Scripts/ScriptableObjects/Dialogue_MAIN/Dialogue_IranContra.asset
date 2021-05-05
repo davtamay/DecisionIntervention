@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839c5ec0cec75524fbd727bc35315db2, type: 3}
+  m_Name: Dialogue_IranContra
+  m_EditorClassIdentifier: 
+  dialogueDataMessages:
+  - description: BILL CALL
+    mainText: '<B>Bill : </B> Hello, James, How are you doing?
+
+      Have you seen the mess they have over there back in Salvador?'
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    imageToDisplay: {fileID: 0}
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: d216b20d26e187d48ae5357a77e09257, type: 2}
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: f74692fce01de564aa8b6e4a6881a053, type: 2}
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  - description: James
+    mainText: "<B>James: </B> Hello, Congressmen. \nYes. Are you referring to the
+      Civil War? \nI\u2019ve seen some clips and read the bill that Senator Foley
+      sent us. "
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    imageToDisplay: {fileID: 0}
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls: []
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  - description: BILL
+    mainText: "<B>Bill : </B> America needs to protect their boarders and\r economy.
+      \nA communist expansion like the one in\r Cuba, will interfere with commerce
+      at the\r\nPanamanian canal."
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    imageToDisplay: {fileID: 0}
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls: []
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  - description: JAMES
+    mainText: "<B>James: </B> I believe so too. We cannot allow America to weaken
+      its economy. \nBut I\u2019m still not convinced that we should interfere anymore
+      with Central America. \r\n"
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    imageToDisplay: {fileID: 0}
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls: []
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  - description: BILL
+    mainText: "<B>Bill : </B> Interference? \nI rather call it a diplomatic collaboration
+      between our countries to strengthen the region. \nThe United States has had
+      a successful partnership with the people of Latin America, including Puerto
+      Rico. "
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    imageToDisplay: {fileID: 0}
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls: []
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  - description: james
+    mainText: "<B>James : </B> Maybe. But this war has gone for four years now \nand
+      has taken over 200 million dollars already. \nWhat about our own priorities,
+      such as domestic policy and social services? \nhas many domestic issues and
+      social programs to\r\nassist. Did you read the letter that was sent today\r\non
+      cutting funds for the Department of Education\r\nand Social Services? We need
+      to get priorities\r\nstraight."
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    imageToDisplay: {fileID: 0}
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls: []
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  - description: BILL
+    mainText: "<B>Bill : </B> The nation is always the priority. \nOur nation stands
+      for democracy and freedom as the World\u2019s leading economy. \nWithout addressing
+      foreign policy, we cannot have a benefactor state. \neconomy is part of our
+      credibility. We cannot sacrifice this. \nThe Government should always\r address
+      foreign issues affecting the nation,\r\nbecause without a nation we can\u2019t
+      have a\r\nbenefactor. Our local industries cannot perish."
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    imageToDisplay: {fileID: 0}
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls: []
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  - description: JAMES
+    mainText: "<B>James : </B>But what about migration? \nThe more we support the
+      Salvadorian government, the lengthier the war and the bigger the migration wave.
+      \nAs a corporate nation, our system can\u2019t support quality of education,
+      work and health care for all those people."
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    imageToDisplay: {fileID: 0}
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls: []
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  - description: BILL
+    mainText: "<B>Bill : </B> Immigrants? Easy. No papers, no passing. I don\u2019t\r\nthink
+      we should worry about these minor things.\r\nIf it happens, it\u2019s just a
+      matter of strengthening\r\nour efforts at the border."
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    imageToDisplay: {fileID: 0}
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls: []
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  - description: 
+    mainText: "<B>James : </B> And taxing more money from the people to aid\r\nthe
+      military after almost investing 300 million\r\ndollars in El Salvador? Do we
+      want another\r\nrecession in the next 20 years starting the new\r\nmillennium?"
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    imageToDisplay: {fileID: 0}
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 6cbde07aa22f063438d75de9f31dd35d, type: 2}
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 43c043b9bb56df04aa41f08573e577cf, type: 2}
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  - description: DECISION
+    mainText: "<B><size=300> THE DECISION: </size></B> \nThe US Congress is now debating
+      on whether or not to approve emergency military aid to detain\r\nthe civil war
+      of El Salvador and support the democratic efforts of President Duarte\u2019s\r\nadministration."
+    isOptionChoiceAvailable: 1
+    discussion_text_Option1: "Assist the Government of El Salvador with military aid.\n\nMilitary
+      assistance will cease if: \nthe Government declines to participate in \nnegotiations
+      with the Marxist guerrilla FLN \nand/or rejects or otherwise fails to support
+      \nan active role for the Secretary General of the \nUnited Nations in mediating
+      a negotiated settlement \nto the armed conflict in El Salvador."
+    discussion_text_Option2: "Deny military aid to the Government of El Salvador.\n\nThe
+      intention is on respecting the country\u2019s sovereignty \nand political decisions
+      related to the civil war conflict. \nRecognizing the United States commitment
+      towards \nthe pursuit of liberty, freedom and security, the nation \nwill continue
+      collaborating and supporting the United \nNations in the role of peace mediator."
+    CorrectOption: 0
+    imageToDisplay: {fileID: 0}
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 6cbde07aa22f063438d75de9f31dd35d, type: 2}
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 43c043b9bb56df04aa41f08573e577cf, type: 2}
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 1
+    dialogueChange_option_1: {fileID: 11400000, guid: dc479f73f204c7040add7fa573975378,
+      type: 2}
+    dialogueChange_option_2: {fileID: 11400000, guid: 8af9672e404ee6842b3a050a64566d86,
+      type: 2}
+  correctMessage: 
+  onCompleteDialogue:
+    m_PersistentCalls:
+      m_Calls: []
+  inCorrectMessage: 
+  onIncompleteDialogue:
+    m_PersistentCalls:
+      m_Calls: []
+  isComplete: 0
+  CorrectOption: 0

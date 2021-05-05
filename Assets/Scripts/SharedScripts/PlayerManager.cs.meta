@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e28dded03a7bb4a83961873fc3594c52
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - additionalHealthIndicator: {instanceID: 0}
+  - armorGO: {instanceID: 0}
+  - DATA_MANAGER: {fileID: 11400000, guid: e54916603ecb64a50867f2b4f21ce315, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,744 @@
+/target:library
+/nowarn:0169
+/out:Temp/Assembly-CSharp.dll
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\PlaybackEngines\WebGLSupport/Managed/UnityEngine.WebGLModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/UnityEditor.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\Managed/Unity.Locator.dll"
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+/reference:Library/ScriptAssemblies/Unity.XR.WindowsMR.dll
+/reference:"C:/Users/Mobile PC/Desktop/Unity Versions/2018.4.26f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+/reference:"C:/Users/Mobile PC/Desktop/Unity Versions/2018.4.26f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+/reference:"C:/Users/Mobile PC/Desktop/Unity Versions/2018.4.26f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+/reference:"C:/Users/Mobile PC/Desktop/Unity Versions/2018.4.26f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+/reference:"C:/Users/Mobile PC/Desktop/Unity Versions/2018.4.26f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+/reference:Assets/Plugins/Google.ProtocolBuffers.dll
+/reference:Assets/Plugins/ICSharpCode.SharpZipLib.dll
+/reference:"E:/PROOF OF CONCEPTS/Immigrant Project/Immigrant Project/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\Microsoft.Win32.Primitives.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.AppContext.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Concurrent.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.NonGeneric.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Specialized.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.Primitives.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.TypeConverter.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Console.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Data.Common.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Contracts.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Debug.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Process.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.StackTrace.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tools.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TraceSource.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tracing.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Drawing.Primitives.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Dynamic.Runtime.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Calendars.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Extensions.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.ZipFile.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Primitives.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Watcher.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.IsolatedStorage.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.MemoryMappedFiles.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Pipes.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Expressions.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Parallel.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Queryable.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Http.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NameResolution.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NetworkInformation.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Ping.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Primitives.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Requests.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Security.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Sockets.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebHeaderCollection.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.Client.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ObjectModel.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Extensions.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Primitives.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Reader.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.ResourceManager.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Writer.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Extensions.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Handles.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Numerics.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Json.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Xml.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Claims.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Csp.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Encoding.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Primitives.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Principal.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.SecureString.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.Extensions.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.RegularExpressions.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Overlapped.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.Parallel.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Thread.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.ThreadPool.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Timer.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ValueTuple.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.ReaderWriter.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XDocument.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlDocument.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlSerializer.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.XDocument.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Numerics.Vectors.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\mscorlib.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ComponentModel.Composition.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Core.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Data.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Drawing.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.IO.Compression.FileSystem.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Net.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Numerics.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Runtime.Serialization.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ServiceModel.Web.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Transactions.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Web.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Windows.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Linq.dll"
+/reference:"C:\Users\Mobile PC\Desktop\Unity Versions\2018.4.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll"
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2018_4_26
+/define:UNITY_2018_4
+/define:UNITY_2018
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_SPRITES
+/define:ENABLE_GRID
+/define:ENABLE_TILEMAP
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_DIRECTOR
+/define:ENABLE_UNET
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_WEBCAM
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_HUB
+/define:ENABLE_CLOUD_PROJECT_ID
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_TIMELINE
+/define:ENABLE_EDITOR_METRICS
+/define:ENABLE_EDITOR_METRICS_CACHING
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:INCLUDE_GI
+/define:ENABLE_MONO_BDWGC
+/define:RENDER_SOFTWARE_CURSOR
+/define:INCLUDE_PUBNUB
+/define:ENABLE_VIDEO
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_LOCALIZATION
+/define:PLATFORM_WEBGL
+/define:UNITY_WEBGL
+/define:UNITY_WEBGL_API
+/define:UNITY_DISABLE_WEB_VERIFICATION
+/define:UNITY_GFX_USE_PLATFORM_VSYNC
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_VR
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:TRILIB_DISABLE_PLUGINS_CHECK
+/define:UNITY_POST_PROCESSING_STACK_V2
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+Assets\Animations\AnimationScripts\NakedManAnimBehavior.cs
+Assets\Animations\AnimationScripts\RandomLook_AnimationBehavior.cs
+Assets\Animations\AnimBehaviorScripts\EyeIKControl.cs
+Assets\Animations\AnimBehaviorScripts\LookAtAnimBehavior.cs
+Assets\Animations\ControlAnimScripts\AnimatorEvents.cs
+Assets\Animations\ControlAnimScripts\AwakeAnimation.cs
+Assets\Animations\ControlAnimScripts\RandomiseAnimParameters.cs
+Assets\BzKovSoft\CharacterSlicer\BzSliceableCharacterBase.cs
+Assets\BzKovSoft\CharacterSlicer\BzSliceSkinnedMeshAdapter.cs
+Assets\BzKovSoft\CharacterSlicer\CenterOfMassColliderBasedHelper.cs
+Assets\BzKovSoft\CharacterSlicer\CharacterComponentManagerFast.cs
+Assets\BzKovSoft\CharacterSlicer\CharacterSlicerInitializer.cs
+Assets\BzKovSoft\CharacterSlicerSamples\CharacterSlicerSampleFast.cs
+Assets\BzKovSoft\CharacterSlicerSamples\EnemyManager.cs
+Assets\BzKovSoft\CharacterSlicerSamples\IDeadable.cs
+Assets\BzKovSoft\ObjectSlicer\AssemblyInfo.cs
+Assets\BzKovSoft\ObjectSlicer\BzMeshData.cs
+Assets\BzKovSoft\ObjectSlicer\BzMeshDataDissector.cs
+Assets\BzKovSoft\ObjectSlicer\BzMeshDataEditor.cs
+Assets\BzKovSoft\ObjectSlicer\BzSliceableBase.cs
+Assets\BzKovSoft\ObjectSlicer\BzSliceableObjectBase.cs
+Assets\BzKovSoft\ObjectSlicer\BzSliceColliderAdapter.cs
+Assets\BzKovSoft\ObjectSlicer\BzSliceConfiguration.cs
+Assets\BzKovSoft\ObjectSlicer\BzSliceMeshFilterAdapter.cs
+Assets\BzKovSoft\ObjectSlicer\BzSlicerHelper.cs
+Assets\BzKovSoft\ObjectSlicer\BzSliceTryData.cs
+Assets\BzKovSoft\ObjectSlicer\BzSliceTryResult.cs
+Assets\BzKovSoft\ObjectSlicer\BzTriangle.cs
+Assets\BzKovSoft\ObjectSlicer\EventHandlers\BzDeleteSecondJoint.cs
+Assets\BzKovSoft\ObjectSlicer\EventHandlers\BzFixMass.cs
+Assets\BzKovSoft\ObjectSlicer\EventHandlers\BzFixMassSmart.cs
+Assets\BzKovSoft\ObjectSlicer\EventHandlers\BzReaplyForce.cs
+Assets\BzKovSoft\ObjectSlicer\EventHandlers\BzSmoothDepenetration.cs
+Assets\BzKovSoft\ObjectSlicer\EventHandlers\IBzObjectSlicedEvent.cs
+Assets\BzKovSoft\ObjectSlicer\EventHandlers\MeshGenerator\Capsule.cs
+Assets\BzKovSoft\ObjectSlicer\EventHandlers\MeshGenerator\Cube.cs
+Assets\BzKovSoft\ObjectSlicer\EventHandlers\MeshGenerator\IcoSphere.cs
+Assets\BzKovSoft\ObjectSlicer\FallingObjGC.cs
+Assets\BzKovSoft\ObjectSlicer\IBzSliceableAsync.cs
+Assets\BzKovSoft\ObjectSlicer\IBzSliceAdapter.cs
+Assets\BzKovSoft\ObjectSlicer\IComponentManager.cs
+Assets\BzKovSoft\ObjectSlicer\LazyActionRunner.cs
+Assets\BzKovSoft\ObjectSlicer\LinkedLoop.cs
+Assets\BzKovSoft\ObjectSlicer\MeshTriangleOptimizer.cs
+Assets\BzKovSoft\ObjectSlicer\ObjectSlicerInitializer.cs
+Assets\BzKovSoft\ObjectSlicer\Polygon\BzPoly.cs
+Assets\BzKovSoft\ObjectSlicer\Polygon\BzPolyLoop.cs
+Assets\BzKovSoft\ObjectSlicer\Polygon\LoopIndex.cs
+Assets\BzKovSoft\ObjectSlicer\Polygon\LoopIndexCollection.cs
+Assets\BzKovSoft\ObjectSlicer\Polygon\PolyMeshData.cs
+Assets\BzKovSoft\ObjectSlicer\SliceResult.cs
+Assets\BzKovSoft\ObjectSlicer\SliceTry.cs
+Assets\BzKovSoft\ObjectSlicer\SliceTryItem.cs
+Assets\BzKovSoft\ObjectSlicer\StaticComponentManager.cs
+Assets\BzKovSoft\ObjectSlicerSamples\AdderSliceableAsync.cs
+Assets\BzKovSoft\ObjectSlicerSamples\BzKnife.cs
+Assets\BzKovSoft\ObjectSlicerSamples\IBzSliceableNoRepeat.cs
+Assets\BzKovSoft\ObjectSlicerSamples\KnifeSliceableAsync.cs
+Assets\BzKovSoft\ObjectSlicerSamples\MoveCamera.cs
+Assets\BzKovSoft\ObjectSlicerSamples\ObjectSlicerSample.cs
+Assets\BzKovSoft\ObjectSlicerSamples\SampleKnifeSlicer.cs
+Assets\BzKovSoft\ObjectSlicerSamples\SampleMouseSlicer.cs
+Assets\BzKovSoft\ObjectSlicerSamples\SliceIdProvider.cs
+Assets\Clouds\CloudController.cs
+Assets\Clouds\CloudManager.cs
+Assets\Custom\UploadOnClick.cs
+Assets\Custom\UploadOnKeypress.cs
+Assets\DefaultPlayables\LightControl\LightControlBehaviour.cs
+Assets\DefaultPlayables\LightControl\LightControlClip.cs
+Assets\DefaultPlayables\LightControl\LightControlMixerBehaviour.cs
+Assets\DefaultPlayables\LightControl\LightControlTrack.cs
+Assets\DefaultPlayables\NavMeshAgentControl\NavMeshAgentControlBehaviour.cs
+Assets\DefaultPlayables\NavMeshAgentControl\NavMeshAgentControlClip.cs
+Assets\DefaultPlayables\NavMeshAgentControl\NavMeshAgentControlMixerBehaviour.cs
+Assets\DefaultPlayables\NavMeshAgentControl\NavMeshAgentControlTrack.cs
+Assets\DefaultPlayables\ScreenFader\ScreenFaderBehaviour.cs
+Assets\DefaultPlayables\ScreenFader\ScreenFaderClip.cs
+Assets\DefaultPlayables\ScreenFader\ScreenFaderMixerBehaviour.cs
+Assets\DefaultPlayables\ScreenFader\ScreenFaderTrack.cs
+Assets\DefaultPlayables\TextSwitcher\TextSwitcherBehaviour.cs
+Assets\DefaultPlayables\TextSwitcher\TextSwitcherClip.cs
+Assets\DefaultPlayables\TextSwitcher\TextSwitcherMixerBehaviour.cs
+Assets\DefaultPlayables\TextSwitcher\TextSwitcherTrack.cs
+Assets\DefaultPlayables\TimeDilation\TimeDilationBehaviour.cs
+Assets\DefaultPlayables\TimeDilation\TimeDilationClip.cs
+Assets\DefaultPlayables\TimeDilation\TimeDilationMixerBehaviour.cs
+Assets\DefaultPlayables\TimeDilation\TimeDilationTrack.cs
+Assets\DefaultPlayables\TransformTween\TransformTweenBehaviour.cs
+Assets\DefaultPlayables\TransformTween\TransformTweenClip.cs
+Assets\DefaultPlayables\TransformTween\TransformTweenMixerBehaviour.cs
+Assets\DefaultPlayables\TransformTween\TransformTweenTrack.cs
+Assets\DefaultPlayables\Video\VideoPlayableBehaviour.cs
+Assets\DefaultPlayables\Video\VideoSchedulerPlayableBehaviour.cs
+Assets\DefaultPlayables\Video\VideoScriptPlayableAsset.cs
+Assets\DefaultPlayables\Video\VideoScriptPlayableTrack.cs
+Assets\Delete\EventManager.cs
+Assets\Delete\GameSuggest.cs
+Assets\Delete\InfoBubble.cs
+Assets\Delete\SAssessment.cs
+Assets\Delete\SwitchAnimParamOffAndOn.cs
+Assets\Keypress.cs
+Assets\LOADSCENE.cs
+Assets\NEWREGISTER.cs
+Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs
+Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs
+Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs
+Assets\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs
+Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs
+Assets\PostProcessing\Runtime\Components\BloomComponent.cs
+Assets\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs
+Assets\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs
+Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs
+Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs
+Assets\PostProcessing\Runtime\Components\DitheringComponent.cs
+Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs
+Assets\PostProcessing\Runtime\Components\FogComponent.cs
+Assets\PostProcessing\Runtime\Components\FxaaComponent.cs
+Assets\PostProcessing\Runtime\Components\GrainComponent.cs
+Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs
+Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs
+Assets\PostProcessing\Runtime\Components\TaaComponent.cs
+Assets\PostProcessing\Runtime\Components\UserLutComponent.cs
+Assets\PostProcessing\Runtime\Components\VignetteComponent.cs
+Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs
+Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs
+Assets\PostProcessing\Runtime\Models\BloomModel.cs
+Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs
+Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs
+Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs
+Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs
+Assets\PostProcessing\Runtime\Models\DitheringModel.cs
+Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs
+Assets\PostProcessing\Runtime\Models\FogModel.cs
+Assets\PostProcessing\Runtime\Models\GrainModel.cs
+Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs
+Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs
+Assets\PostProcessing\Runtime\Models\UserLutModel.cs
+Assets\PostProcessing\Runtime\Models\VignetteModel.cs
+Assets\PostProcessing\Runtime\PostProcessingBehaviour.cs
+Assets\PostProcessing\Runtime\PostProcessingComponent.cs
+Assets\PostProcessing\Runtime\PostProcessingContext.cs
+Assets\PostProcessing\Runtime\PostProcessingModel.cs
+Assets\PostProcessing\Runtime\PostProcessingProfile.cs
+Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs
+Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs
+Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs
+Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs
+Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs
+Assets\ReturnToInitialPosOnTrigger.cs
+Assets\Scripts\Asset_Management\Asset_Management_Utility.cs
+Assets\Scripts\Client\Entity_Container.cs
+Assets\Scripts\Client\EntityData_SO.cs
+Assets\Scripts\Client\Non_MainClientData.cs
+Assets\Scripts\Client\StallAndFollowUI.cs
+Assets\Scripts\Data\CognitiveRefraimingText.cs
+Assets\Scripts\Data\GazeInputModule.cs
+Assets\Scripts\Data\LocalizationData.cs
+Assets\Scripts\Data\LocalizationManager.cs
+Assets\Scripts\Data\LocalizedText.cs
+Assets\Scripts\Data\OnEnableAddLocalizationText.cs
+Assets\Scripts\Data\TimelineTextSwitchrCalls.cs
+Assets\Scripts\Data\WebGLEmulator.cs
+Assets\Scripts\DisableMoveAndLookTowards\NewBehaviourScript.cs
+Assets\Scripts\Games\Collections\Enemy.cs
+Assets\Scripts\Games\Collections\EnemyManager.cs
+Assets\Scripts\Games\Collections\SpawnCollections.cs
+Assets\Scripts\Games\CopingGame\CopeGameObstacles.cs
+Assets\Scripts\Games\CopingGame\CopingGameSpawner.cs
+Assets\Scripts\Games\CopingGame\LookControlMovement.cs
+Assets\Scripts\Games\Finder\FindChoose.cs
+Assets\Scripts\Games\Finder\FinderSpawner.cs
+Assets\Scripts\Games\Hit\CheckAndInstantiate.cs
+Assets\Scripts\Games\Hit\HitManager.cs
+Assets\Scripts\Games\Hit\HitTrigger.cs
+Assets\Scripts\Games\Hit\LookHit.cs
+Assets\Scripts\Games\Hit\PointsBasedOnImpact.cs
+Assets\Scripts\Games\Hoops\BallControl.cs
+Assets\Scripts\Games\Hoops\BallHoopPoints.cs
+Assets\Scripts\Games\Hoops\BallManager.cs
+Assets\Scripts\Games\Hoops\HoopSpawn.cs
+Assets\Scripts\Games\Hoops\LookHoop.cs
+Assets\Scripts\Games\Hoops\RandomTransform.cs
+Assets\Scripts\Games\Hoops\RandomWallofPoints.cs
+Assets\Scripts\Games\Hoops\SimpleTriggerEnterDestroy.cs
+Assets\Scripts\Games\Match\CardSpawner.cs
+Assets\Scripts\Games\Match\DifficultyChoose.cs
+Assets\Scripts\Games\Match\LookSelect.cs
+Assets\Scripts\Games\Paint\PaintLook.cs
+Assets\Scripts\Games\Paint\PaintManager.cs
+Assets\Scripts\Games\Paint\PaintTool.cs
+Assets\Scripts\Games\Shoot\BulletControll.cs
+Assets\Scripts\Games\Shoot\BulletManager.cs
+Assets\Scripts\Games\Shoot\CheckPoints.cs
+Assets\Scripts\Games\Shoot\EnemyBoss.cs
+Assets\Scripts\Games\Shoot\EnemyBulletManager.cs
+Assets\Scripts\Games\Shoot\EnemyOrbiter.cs
+Assets\Scripts\Games\Shoot\EnemyPursue.cs
+Assets\Scripts\Games\Shoot\EnemyShooter.cs
+Assets\Scripts\Games\Shoot\LookShoot.cs
+Assets\Scripts\Games\Shoot\NavigationController.cs
+Assets\Scripts\Games\Shoot\PathTracker.cs
+Assets\Scripts\Games\Shoot\PowerUpSpawn.cs
+Assets\Scripts\Games\Shoot\ShootObjectResponse.cs
+Assets\Scripts\Games\Shoot\ZombieEnemyAttack.cs
+Assets\Scripts\Games\SkyFlight\AddRandomPiece.cs
+Assets\Scripts\Games\SkyFlight\GroundTextMover.cs
+Assets\Scripts\Games\SkyFlight\Movement.cs
+Assets\Scripts\Games\SkyFlight\ObjExitTrigger.cs
+Assets\Scripts\Games\SkyFlight\SkyJGameConroller.cs
+Assets\Scripts\Games\SkyFlight\SkyJumperLookMovement.cs
+Assets\Scripts\Games\TriggerGameSelection.cs
+Assets\Scripts\Games\Wack\SpawnRandomizedPowerUps.cs
+Assets\Scripts\Games\Wack\Wack_AnimBehavior_ReturnToInitPos.cs
+Assets\Scripts\Games\Wack\WackGameManager.cs
+Assets\Scripts\Games\Wack\WackHitPoints.cs
+Assets\Scripts\Games\Wack\WackLookClick.cs
+Assets\Scripts\Games\Wack\WackSpawner.cs
+Assets\Scripts\IK\IKControl_LookAndPickUp.cs
+Assets\Scripts\Input\InputSelection.cs
+Assets\Scripts\Input\Trigger_Base.cs
+Assets\Scripts\Input\Trigger_Move.cs
+Assets\Scripts\Input\Trigger_Rotation.cs
+Assets\Scripts\Input\Trigger_Scale.cs
+Assets\Scripts\Input\Trigger_Slice.cs
+Assets\Scripts\Input\TriggerSelect.cs
+Assets\Scripts\Intro\AddForceToFallingObjects.cs
+Assets\Scripts\Intro\BicycleInteraction.cs
+Assets\Scripts\Intro\CollectTaskInteraction.cs
+Assets\Scripts\Intro\DogInteraction.cs
+Assets\Scripts\Intro\DoorFixBug.cs
+Assets\Scripts\Intro\FeetFollowPlayer.cs
+Assets\Scripts\Intro\GeneralInteraction.cs
+Assets\Scripts\Intro\InteractionBehavior.cs
+Assets\Scripts\Intro\LookInteraction.cs
+Assets\Scripts\Intro\MenuArmFollow.cs
+Assets\Scripts\Intro\MirrorTrigger.cs
+Assets\Scripts\Intro\Mountain_Cave_TaskCollection.cs
+Assets\Scripts\Intro\Mountain_Glasses_TaskCollection.cs
+Assets\Scripts\Intro\Mountain_Injuredtask.cs
+Assets\Scripts\Intro\Mountain_Rock_Collect.cs
+Assets\Scripts\Intro\Mountain_TicketTaskCollection.cs
+Assets\Scripts\Intro\Park_LonelyDog_TaskCollection.cs
+Assets\Scripts\Intro\QuestAssess.cs
+Assets\Scripts\Intro\Resiliency\UIResiliencyManager.cs
+Assets\Scripts\Intro\RockHtSmaller.cs
+Assets\Scripts\Intro\RopeManager.cs
+Assets\Scripts\Intro\RunAwayFromPlayer.cs
+Assets\Scripts\Intro\Stollen_Collections_Task.cs
+Assets\Scripts\Intro\StressEffects\ResiliencyModifierGeneral.cs
+Assets\Scripts\Intro\StressEffects\StressEffects.cs
+Assets\Scripts\List\Scene_List.cs
+Assets\Scripts\List\SetUp_Button_ToolOptions.cs
+Assets\Scripts\List\SetUp_ButtonURLs.cs
+Assets\Scripts\List\String_List.cs
+"Assets\Scripts\Menu Scripts\AudioManager.cs"
+"Assets\Scripts\Menu Scripts\BaseSoundController.cs"
+"Assets\Scripts\Menu Scripts\ButtonClickLook.cs"
+"Assets\Scripts\Menu Scripts\CheckForCopingActivation.cs"
+"Assets\Scripts\Menu Scripts\CognitiveRefraimingAction.cs"
+"Assets\Scripts\Menu Scripts\CountingDownS.cs"
+"Assets\Scripts\Menu Scripts\CreditsControl.cs"
+"Assets\Scripts\Menu Scripts\CursorPositioner.cs"
+"Assets\Scripts\Menu Scripts\FolowAllong.cs"
+"Assets\Scripts\Menu Scripts\LockManager.cs"
+"Assets\Scripts\Menu Scripts\MoveAroundChoice.cs"
+"Assets\Scripts\Menu Scripts\MusicController.cs"
+"Assets\Scripts\Menu Scripts\MusicTrackName.cs"
+"Assets\Scripts\Menu Scripts\OrientationAdjustment.cs"
+"Assets\Scripts\Menu Scripts\PaintPopUp.cs"
+"Assets\Scripts\Menu Scripts\SetGameScore.cs"
+"Assets\Scripts\Menu Scripts\SettingsControl.cs"
+"Assets\Scripts\Menu Scripts\SliderButtonManipulator.cs"
+"Assets\Scripts\Menu Scripts\StressMenu\Task_Evaluation.cs"
+Assets\Scripts\Network\ClientUpdaterManager.cs
+Assets\Scripts\Network\EnableAudio.cs
+Assets\Scripts\Network\MainClientUpdater.cs
+Assets\Scripts\Network\Net_Register_GameObject.cs
+Assets\Scripts\Network\NetworkUpdateHandler.cs
+Assets\Scripts\Network\Record_Event.cs
+Assets\Scripts\OnEnableCall.cs
+Assets\Scripts\RegisterURLToButton.cs
+Assets\Scripts\Scene_Manager\Scene_Manager.cs
+Assets\Scripts\ScriptableObjects\Characters\Character_Profile.cs
+Assets\Scripts\ScriptableObjects\Characters\Character_Profile\CharacterProfileList.cs
+Assets\Scripts\ScriptableObjects\Characters\Character_UIManager.cs
+Assets\Scripts\ScriptableObjects\Characters\CharacterList.cs
+Assets\Scripts\ScriptableObjects\CurrentTimeToText.cs
+Assets\Scripts\ScriptableObjects\Dialogue_DELETE\Dialogue_Change.cs
+Assets\Scripts\ScriptableObjects\Events\DimAndTurnOnLights_Lerp.cs
+Assets\Scripts\ScriptableObjects\Events\GameEvent.cs
+Assets\Scripts\ScriptableObjects\Events\GameEventListener.cs
+Assets\Scripts\ScriptableObjects\Events\TRIGGER_VIDEO_SWITCH.cs
+Assets\Scripts\ScriptableObjects\Managers\DataManager\DataManager.cs
+Assets\Scripts\ScriptableObjects\Player\CopingMechanisms\List\CopingMechanismList_SO.cs
+Assets\Scripts\ScriptableObjects\Player\CopingMechanisms\List\RuntimeSet.cs
+Assets\Scripts\ScriptableObjects\Player\Inventory\InventoryList1.cs
+Assets\Scripts\ScriptableObjects\Player\Inventory\Item.cs
+Assets\Scripts\ScriptableObjects\Player\Inventory\ItemList.cs
+Assets\Scripts\ScriptableObjects\Player\PlayerDataCollection.cs
+Assets\Scripts\ScriptableObjects\Player\Points\Points.cs
+Assets\Scripts\ScriptableObjects\Player\Points\PointsList.cs
+Assets\Scripts\ScriptableObjects\Player\Resiliency\ResiliencyData.cs
+Assets\Scripts\ScriptableObjects\Player\Task\Task.cs
+Assets\Scripts\ScriptableObjects\Player\Task\TaskList.cs
+Assets\Scripts\ScriptableObjects\Scene\Areas\Area.cs
+Assets\Scripts\ScriptableObjects\Scene\Areas\AreaList.cs
+Assets\Scripts\ScriptableObjects\UI\AreaUIManager.cs
+Assets\Scripts\ScriptableObjects\Utility\TimerClass.cs
+Assets\Scripts\ScriptableObjects\Variables\BoolVariable.cs
+Assets\Scripts\ScriptableObjects\Variables\FloatReference.cs
+Assets\Scripts\ScriptableObjects\Variables\FloatVariable.cs
+Assets\Scripts\ScriptableObjects\Variables\IntVariable.cs
+Assets\Scripts\ScriptableObjects\Variables\QuaternionVariable.cs
+Assets\Scripts\ScriptableObjects\Variables\StringVariable.cs
+Assets\Scripts\ScriptableObjects\Variables\Vector3Variable.cs
+Assets\Scripts\SharedScripts\AudioManagerTarget.cs
+Assets\Scripts\SharedScripts\DestroyTriggerWithTag.cs
+Assets\Scripts\SharedScripts\EnableOrDisableTrigger.cs
+Assets\Scripts\SharedScripts\Extensions.cs
+Assets\Scripts\SharedScripts\Flock.cs
+Assets\Scripts\SharedScripts\GameController.cs
+Assets\Scripts\SharedScripts\GameTimer.cs
+Assets\Scripts\SharedScripts\HelpUIManager.cs
+Assets\Scripts\SharedScripts\HitEffectDelete.cs
+Assets\Scripts\SharedScripts\ItemRotate.cs
+Assets\Scripts\SharedScripts\LineRendererGuide.cs
+Assets\Scripts\SharedScripts\LookMoveTo.cs
+Assets\Scripts\SharedScripts\NewWaveTransition.cs
+Assets\Scripts\SharedScripts\ObjectDisableOnEnter.cs
+Assets\Scripts\SharedScripts\ObjectResponse.cs
+Assets\Scripts\SharedScripts\OnLookFireAnimParameters.cs
+Assets\Scripts\SharedScripts\ParticleEffectReplay.cs
+Assets\Scripts\SharedScripts\PlayerInventory.cs
+Assets\Scripts\SharedScripts\PlayerLookMove.cs
+Assets\Scripts\SharedScripts\PlayerManager.cs
+Assets\Scripts\SharedScripts\PowerUpResponse.cs
+Assets\Scripts\SharedScripts\RandomMoveAnimations.cs
+Assets\Scripts\SharedScripts\Scene\Scene_Event.cs
+Assets\Scripts\SharedScripts\Scene\SceneController.cs
+Assets\Scripts\SharedScripts\Scrollz.cs
+Assets\Scripts\SharedScripts\SetText.cs
+Assets\Scripts\SharedScripts\SimpleLookAt.cs
+Assets\Scripts\SharedScripts\TargetMovement.cs
+Assets\Scripts\SharedScripts\TextEffects.cs
+Assets\Scripts\SharedScripts\TimeLineController.cs
+Assets\Scripts\SharedScripts\TimeLineOnEnableHelpStop.cs
+Assets\Scripts\SharedScripts\TriggerFireEvents.cs
+Assets\Scripts\SharedScripts\UIButtonAndSpeedSetUp.cs
+Assets\Scripts\SharedScripts\WaveManager.cs
+Assets\Scripts\Spawning\ClientSpawnManager.cs
+Assets\Scripts\Spawning\Cliet_LIST_SO.cs
+Assets\Scripts\State\Bool_StateCheck_SO.cs
+Assets\Scripts\State\GameStateManager.cs
+Assets\Scripts\State\State_List.cs
+Assets\Scripts\State\StateSwitchDependingOnVR.cs
+Assets\Scripts\Task\Cow\CowCollectionTask.cs
+Assets\Scripts\Task\Cow\CowHomeTrigger.cs
+Assets\Scripts\Task\Cow\CowMove.cs
+Assets\Scripts\Tools\Base_ToolFramework.cs
+Assets\Scripts\Transform\MoveHeadToFollowTarget.cs
+Assets\Scripts\Transform\MoveToTransform.cs
+Assets\Scripts\Transform\OnEnableProject.cs
+Assets\Scripts\Transform\Parent_Event.cs
+Assets\Scripts\Transform\PlayerTransfomFunctions.cs
+Assets\Scripts\Transform\SetPlayerPosAndRotToEvent.cs
+Assets\Scripts\UI\Alternate_Button_Function.cs
+Assets\Scripts\UI\OnEnableChangeUIText.cs
+Assets\Scripts\UI\ScrollMoveOnClick.cs
+Assets\Scripts\UI\SetCustomRenderQueue.cs
+Assets\Scripts\UI\UI_InstructionTag_Setup.cs
+Assets\Scripts\UserResponse\DialogueResponse.cs
+Assets\Scripts\UserResponse\DialogueSimple.cs
+Assets\Scripts\UserResponse\ScaleBasedOnDistance.cs
+Assets\Scripts\UTILITY\SingletonComponent.cs
+Assets\TriLib\TriLib\Samples\Scripts\AnimationText.cs
+Assets\TriLib\TriLib\Samples\Scripts\AssetDownloaderZIP.cs
+Assets\TriLib\TriLib\Samples\Scripts\AssetLoaderWindow.cs
+Assets\TriLib\TriLib\Samples\Scripts\BlendShapeControl.cs
+Assets\TriLib\TriLib\Samples\Scripts\CustomIOLoadSample.cs
+Assets\TriLib\TriLib\Samples\Scripts\DownloadSample.cs
+Assets\TriLib\TriLib\Samples\Scripts\ErrorDialog.cs
+Assets\TriLib\TriLib\Samples\Scripts\FileOpenDialog.cs
+Assets\TriLib\TriLib\Samples\Scripts\FileText.cs
+Assets\TriLib\TriLib\Samples\Scripts\LoadSample.cs
+Assets\TriLib\TriLib\Samples\Scripts\LoadSampleAsync.cs
+Assets\TriLib\TriLib\Samples\Scripts\PersistentDataPathLoadSample.cs
+Assets\TriLib\TriLib\Samples\Scripts\ProgressHandlingSample.cs
+Assets\TriLib\TriLib\Samples\Scripts\SimpleRotator.cs
+Assets\TriLib\TriLib\Samples\Scripts\URIDialog.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\AssetAdvancedConfigs.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\AssetDownloader.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\AssetLoader.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\AssetLoaderAsync.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\AssetLoaderBase.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\AssetLoaderOptions.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\AssetLoaderZip.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\AssetUnloader.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\AssimpConfigs.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\AssimpInterop.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\AssimpMetadataCollection.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\AnimationChannelData.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\AnimationCurveData.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\AnimationData.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\AssimpMetadata.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\CameraData.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\ConcurrentList.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\EmbeddedTextureData.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\FileLoadData.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\MaterialData.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\MeshData.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\MorphChannelData.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\MorphChannelKey.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\MorphData.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\InternalData\NodeData.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\MaterialShadingMode.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\STBImageInterop.cs
+Assets\TriLib\TriLib\Scripts\AssetLoader\STBImageLoader.cs
+Assets\TriLib\TriLib\Scripts\Extensions\CameraExtensions.cs
+Assets\TriLib\TriLib\Scripts\Extensions\Dispatcher.cs
+Assets\TriLib\TriLib\Scripts\Extensions\FileUtils.cs
+Assets\TriLib\TriLib\Scripts\Extensions\JSHelper.cs
+Assets\TriLib\TriLib\Scripts\Extensions\MatrixExtensions.cs
+Assets\TriLib\TriLib\Scripts\Extensions\MonoPInvokeCallbackAttribute.cs
+Assets\TriLib\TriLib\Scripts\Extensions\StreamUtils.cs
+Assets\TriLib\TriLib\Scripts\Extensions\StringUtils.cs
+Assets\TriLib\TriLib\Scripts\Extensions\Texture2DUtils.cs
+Assets\TriLib\TriLib\Scripts\Extensions\ThreadUtils.cs
+Assets\TriLib\TriLib\Scripts\Extensions\TransformExtensions.cs
+Assets\TriLib\TriLib\Scripts\Extensions\TriLibProjectUtils.cs
+Assets\TriLib\TriLib\Scripts\Extensions\UWPUtils.cs
+Assets\TriLib\TriLibExtras\Samples\Scripts\AvatarLoaderSample.cs
+Assets\TriLib\TriLibExtras\Scripts\AvatarLoader.cs
+Assets\Utils.cs
+Assets\WaveAnimation.cs
+Assets\WebVR\Scripts\ControllerInteraction.cs
+Assets\WebVR\Scripts\Input\FreeFlightController.cs
+Assets\WebVR\Scripts\Input\TeleportPlayer.cs
+Assets\WebVR\Scripts\TESTING_LOCAL_TO_WORLDCHANGES.cs
+Assets\WebVR\Scripts\WebVRCamera.cs
+Assets\WebVR\Scripts\WebVRController.cs
+Assets\WebVR\Scripts\WebVRControllerData.cs
+Assets\WebVR\Scripts\WebVRControllerInputMap.cs
+Assets\WebVR\Scripts\WebVRData.cs
+Assets\WebVR\Scripts\WebVRDisplayCapabilities.cs
+Assets\WebVR\Scripts\WebVRManager.cs
+Assets\WebVR\Scripts\WebVRMatrixUtil.cs
+Assets\WebVR\Scripts\WebVRUI.cs

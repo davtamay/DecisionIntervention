@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839c5ec0cec75524fbd727bc35315db2, type: 3}
+  m_Name: Dialogue_Immigrant_Result_PresidentDecideVillageName
+  m_EditorClassIdentifier: 
+  dialogueDataMessages:
+  - description: 
+    mainText: 'Although there are some that have stated to dislike the name.
+
+      There are others that report being content with your choice!!'
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls: []
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  - description: 
+    mainText: Click continue to return to policy maker.
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 4fd194a93ed2db74983033f374af5305, type: 2}
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 4fd194a93ed2db74983033f374af5305, type: 2}
+          m_MethodName: RaiseDialogueEvent
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: f3d86b07d9b68a9448ad711a8c945cdc,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: Dialogue_Change, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    isFinishDialogue: 1
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  correctMessage: 
+  onCompleteDialogue:
+    m_PersistentCalls:
+      m_Calls: []
+  inCorrectMessage: 
+  onIncompleteDialogue:
+    m_PersistentCalls:
+      m_Calls: []
+  isComplete: 0
+  CorrectOption: 0

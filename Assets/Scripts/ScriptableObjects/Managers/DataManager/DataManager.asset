@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18d73c7e9a78b44e1b841dcecb5d87f0, type: 3}
+  m_Name: DataManager
+  m_EditorClassIdentifier: 
+  playerData: {fileID: 11400000, guid: cbdf1f85a4ee74a61921eb35fc5a1ee7, type: 2}
+  currentSceneName: {fileID: 11400000, guid: b993438921c73bc45bbd379c4d1682c0, type: 2}
+  isStartUIOn: {fileID: 11400000, guid: 8074a052a2362487baa787a1f2e175ae, type: 2}
+  isSceneLoading: {fileID: 11400000, guid: 3484cbddf940c4c3fbc746b23aed9ab4, type: 2}
+  isStressMenuOn: {fileID: 11400000, guid: 2ab7bbeb4c16c4b1ead2e90145262d65, type: 2}
+  isGameSuccess: {fileID: 11400000, guid: 6278d492fb02b81448f1136cc914679f, type: 2}

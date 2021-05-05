@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839c5ec0cec75524fbd727bc35315db2, type: 3}
+  m_Name: Dialogue_Intro
+  m_EditorClassIdentifier: 
+  dialogueDataMessages:
+  - description: Intro 1
+    mainText: "Congratulations! The people of Illinois have voted for you to be their
+      \nMajority Leader in\r Congress. This comes with a great opportunity to shape\nthe
+      future of immigration policy in the United States."
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls: []
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  - description: intro 2
+    mainText: 'You will have the opportunity to vote on 2 separate proposals
+
+      by voting on either 2 different legislations after having the chance
+
+      to review the context revolving set issue. If you are ready, select continue!'
+    isOptionChoiceAvailable: 0
+    discussion_text_Option1: 
+    discussion_text_Option2: 
+    CorrectOption: 0
+    onSelectOption:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 9146877a6271fd644bd4818ff94f8a65, type: 2}
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 9146877a6271fd644bd4818ff94f8a65, type: 2}
+          m_MethodName: RaiseDialogueEvent
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: facf316b5cadf7840a7d569a972f5fae,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: Dialogue_Change, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    isFinishDialogue: 0
+    isComplete: 0
+    isBranch: 0
+    dialogueChange_option_1: {fileID: 0}
+    dialogueChange_option_2: {fileID: 0}
+  correctMessage: I wish you all the luck and take care doctor.
+  onCompleteDialogue:
+    m_PersistentCalls:
+      m_Calls: []
+  inCorrectMessage: Have a good one!
+  onIncompleteDialogue:
+    m_PersistentCalls:
+      m_Calls: []
+  isComplete: 0
+  CorrectOption: 0
