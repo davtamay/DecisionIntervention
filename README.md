@@ -10,7 +10,7 @@ Karla G. Sanabria Véaz  (Graduate Student in Department of Linguistics)
 By presenting the user with the role of a law maker, one is presented important decisions that have an impact on people. Once the decision is made, the user is transported to the circumstances that happened due to those decisions.
 
 ## Unity Project
-The project was build to webgl using WebXR specifications, so it could be used through mobilde, desktop and virtual reality. It offer users the ability to test it when it was being presented (if there is interest for testing this, I will rebuild it again, and share it here).
+The project was build to webgl using WebXR specifications, so it could be used through mobilde, desktop and virtual reality. It offer users the ability to test it when it was being presented (I provided the project here, but if there is interest for a live demo, I can rebuild it again, and share it here).
 
 ## Features Developed
 - A modular dialogue system was created for this game to allow to customize a customized storyline within Unity.
